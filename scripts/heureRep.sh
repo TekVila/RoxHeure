@@ -1,4 +1,4 @@
 #!/bin/bash
-set $(date)
-set ${5//:/ }
+set $(LC_ALL=C date)
+set ${4//:/ }
 echo $1:$2
