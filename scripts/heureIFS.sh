@@ -1,5 +1,5 @@
 #!/bin/bash
-set $(date)
+set $(LC_ALL=C date)
 IFS=:
-set $5
+set $4
 echo $1:$2
